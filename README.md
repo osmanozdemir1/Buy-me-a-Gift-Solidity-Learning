@@ -1,18 +1,15 @@
-# Buy-me-a-Gift-Solidity-Learning
-I am trying to learn web3 and this is a DeFi project
+# Basic Sample Hardhat Project
 
-This app is created acoording to Alchemy documentation which can be found in [here](https://docs.alchemy.com/alchemy/tutorials/how-to-build-buy-me-a-coffee-defi-dapp).
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-To test locally:
-`npx hardhat run scripts/buy-coffee.js`
+Try running some of the following tasks:
 
-To deploy locally:
-`npx hardhat run scripts/deploy.js`
-
-Deploying to the Goerli network:
-`npx hardhat run scripts/deploy.js --network goerli`
-
-To withdraw the tips received:
-`npx hardhat run scripts/withdraw.js`
-
-If you want to see the front-end part of the application you can go check my [repl.it account](https://replit.com/@osmanozdemir1) or you can go directly to the [app](https://buymeagift-solidity-defi-tipping-app.osmanozdemir1.repl.co/).
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
