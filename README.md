@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Buy Me A Gift dApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a decentralized application created with Solidity and Javascript. It is created based on Alchemy's [documentation](https://docs.alchemy.com/alchemy/road-to-web3/weekly-learning-challenges/2.-how-to-build-buy-me-a-coffee-defi-dapp).
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+To demonstrate functions locally: ```npx hardhat run scripts/buy-drink.js```
+
+To deploy contract locally: ```npx hardhat run scripts/deploy.js```
+
+To deploy contract to Goerli network: ```npx hardhat run scripts/deploy.js --network Goerli```
+
+
+Frontend of the application is created with Repl'it. You can find it [here](https://replit.com/@osmanozdemir1/BuyMeAGift-Solidity-DeFi-Tipping-app) and can fork the same project for frontend part.
